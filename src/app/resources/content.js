@@ -46,17 +46,22 @@ const social = [
     icon: "email",
     link: "mailto:bharadwaj.vansh2004@gmail.com",
   },
+  {
+    name: "+91 9414755738",
+    icon: "phone",
+    link: "tel:+919414755738",
+  },
 ];
 
 const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Designer's Dream is Developer's Nightmare</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Vansh, a Freelance Web Developer + Designer from <InlineCode>SRM University</InlineCode>, where
+      <br />I usually involve myself in studies. After college hours, I build projects for my clients.
     </>
   ),
 };
@@ -64,7 +69,7 @@ const home = {
 const about = {
   label: "About",
   title: "About me",
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  description: `Meet ${person.name}, ${person.role} from India`,
   tableOfContent: {
     display: true,
     subItems: false,
@@ -74,16 +79,16 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/vansh-bharadwaj/enquiry",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Vansh is a India-based developer with a passion for creating beautiful websites and
+        elegant design solutions. His work spans portfolio websites, small to mid size business
+        websites, and the convergence of design and development.
       </>
     ),
   },
@@ -92,41 +97,34 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Kronnex",
+        timeframe: "March 2025 - Present",
+        role: "Intern",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Currently redesigning the UI/UX for the Kronnex, to design and develop a new beautiful site for their company
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Gyanmisr",
+        timeframe: "May 2024 - August 2024",
+        role: "Software Engineering Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Learnt the development of Professional web solutions
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Helped in development of ERP solutions for their clients
           </>,
         ],
         images: [],
@@ -138,12 +136,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "SRM University",
+        description: <>Studied Computer Science and software engineering.</>,
       },
     ],
   },
@@ -152,8 +146,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "ReactJS",
+        description: <>Able to build websites in ReactJS ecosystem.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {

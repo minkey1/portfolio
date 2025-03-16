@@ -60,8 +60,7 @@ const home = {
   headline: <>Designer's Dream is Developer's Nightmare</>,
   subline: (
     <>
-      I'm Vansh, a Freelance Web Developer + Designer from <InlineCode>SRM University</InlineCode>, where
-      <br />I usually involve myself in studies. After college hours, I build projects for my clients.
+      I'm Vansh, a Freelance Web Developer and Designer studying at <InlineCode>SRM University</InlineCode>
     </>
   ),
 };
@@ -146,22 +145,22 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "ReactJS",
-        description: <>Able to build websites in ReactJS ecosystem.</>,
+        title: "React.js",
+        description: <>Able to build websites in React.js ecosystem.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-02.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/project-01/cover-03.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
@@ -169,12 +168,12 @@ const about = {
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
     ],
